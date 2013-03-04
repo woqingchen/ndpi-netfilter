@@ -1,6 +1,8 @@
 NDPI_PATH2 := ${NDPI_PATH}/src
 NDPI_SRC := ndpi_cpy
 NDPI_PRO := ${NDPI_SRC}/lib/protocols
+NDPI_THIRD := ${NDPI_SRC}/lib/third_party/src
+
 
 ccflags-y += -I${src}/${NDPI_SRC}/include -I${src}/${NDPI_SRC}/lib -DOPENDPI_NETFILTER_MODULE
 
@@ -9,6 +11,9 @@ ccflags-y += -I${src}/${NDPI_SRC}/include -I${src}/${NDPI_SRC}/lib -DOPENDPI_NET
 
 obj-m := xt_ndpi.o
 xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
+		${NDPI_THIRD}/ahocorasick.o \
+		${NDPI_THIRD}/node.o \
+		${NDPI_THIRD}/sort.o \
                 ${NDPI_PRO}/afp.o \
                 ${NDPI_PRO}/aimini.o \
                 ${NDPI_PRO}/applejuice.o \
@@ -92,6 +97,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
                 ${NDPI_PRO}/socrates.o \
                 ${NDPI_PRO}/sopcast.o \
                 ${NDPI_PRO}/soulseek.o \
+                ${NDPI_PRO}/spotify.o \
                 ${NDPI_PRO}/ssdp.o \
                 ${NDPI_PRO}/ssh.o \
                 ${NDPI_PRO}/ssl.o \
