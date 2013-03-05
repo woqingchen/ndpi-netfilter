@@ -4,7 +4,7 @@ NDPI_PRO := ${NDPI_SRC}/lib/protocols
 NDPI_THIRD := ${NDPI_SRC}/lib/third_party/src
 
 
-ccflags-y += -I${src}/${NDPI_SRC}/include -I${src}/${NDPI_SRC}/lib -DOPENDPI_NETFILTER_MODULE
+ccflags-y += -I${src}/${NDPI_SRC}/include -I${src}/${NDPI_SRC}/lib -DOPENDPI_NETFILTER_MODULE -I${src}/${NDPI_SRC}/lib/third_party/include
 
 #MODULES_DIR := /lib/modules/$(shell uname -r)
 #KERNEL_DIR := ${MODULES_DIR}/build
