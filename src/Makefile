@@ -58,7 +58,6 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
                 ${NDPI_PRO}/mail_imap.o \
                 ${NDPI_PRO}/mail_pop.o \
                 ${NDPI_PRO}/mail_smtp.o \
-                ${NDPI_PRO}/manolito.o \
                 ${NDPI_PRO}/maplestory.o \
                 ${NDPI_PRO}/mdns.o \
                 ${NDPI_PRO}/meebo.o \
@@ -87,7 +86,6 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
                 ${NDPI_PRO}/rdp.o \
                 ${NDPI_PRO}/rtp.o \
                 ${NDPI_PRO}/rtsp.o \
-                ${NDPI_PRO}/secondlife.o \
                 ${NDPI_PRO}/sflow.o \
                 ${NDPI_PRO}/shoutcast.o \
                 ${NDPI_PRO}/sip.o \
