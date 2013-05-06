@@ -120,6 +120,22 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
                 ${NDPI_PRO}/xbox.o \
                 ${NDPI_PRO}/xdmcp.o \
                 ${NDPI_PRO}/yahoo.o \
+				${NDPI_PRO}/viber.o \
+				${NDPI_PRO}/vmare.o \
+				${NDPI_PRO}/teamspeak.o \
+				${NDPI_PRO}/skinny.o \
+				${NDPI_PRO}/lotus_notes.o \
+				${NDPI_PRO}/tor.o \
+				${NDPI_PRO}/h323.o \
+				${NDPI_PRO}/tcp_or_udp.o \
+				${NDPI_PRO}/openvpn.o \
+				${NDPI_PRO}/noe.o \
+				${NDPI_PRO}/rtcp.o \
+				${NDPI_PRO}/corba.o \
+				${NDPI_PRO}/gtp.o \
+				${NDPI_PRO}/rsync.o \
+				${NDPI_PRO}/ciscovpn.o \
+				${NDPI_PRO}/oracle.o \ 
                 ${NDPI_PRO}/zattoo.o
 
 all:
