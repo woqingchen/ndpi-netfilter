@@ -127,7 +127,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/lotus_notes.o \
 		${NDPI_PRO}/tor.o \
 		${NDPI_PRO}/h323.o \
-		${NDPI_PRO}/tcp_or_udp.o \
+		${NDPI_PRO}/tcp_udp.o \
 		${NDPI_PRO}/openvpn.o \
 		${NDPI_PRO}/noe.o \
 		${NDPI_PRO}/rtcp.o \
