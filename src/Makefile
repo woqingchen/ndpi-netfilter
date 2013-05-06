@@ -121,7 +121,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/xdmcp.o \
 		${NDPI_PRO}/yahoo.o \
 		${NDPI_PRO}/viber.o \
-		${NDPI_PRO}/vmare.o \
+		${NDPI_PRO}/vmware.o \
 		${NDPI_PRO}/teamspeak.o \
 		${NDPI_PRO}/skinny.o \
 		${NDPI_PRO}/lotus_notes.o \
